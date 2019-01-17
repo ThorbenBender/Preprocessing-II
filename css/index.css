@@ -185,6 +185,12 @@ header nav a {
   color: #212529;
   font-size: 1.4rem;
 }
+@media (max-width: 500px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
