@@ -169,8 +169,10 @@ img {
   margin: 0 auto;
 }
 header {
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  border-bottom: 3px dashed #C0C0C0;
 }
 header nav {
   align-items: center;
@@ -193,6 +195,10 @@ header nav a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .welcome {
+  padding-top: 2%;
+  border-bottom: 3px dashed #C0C0C0;
 }
 .home .content-section {
   margin: 30px 0;
@@ -239,4 +245,13 @@ header nav a {
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.home .content-pick .destination .btn {
+  width: 100%;
+  background: #17A2B8;
+  color: white;
+  padding: 5% 0%;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  text-align: center;
 }
