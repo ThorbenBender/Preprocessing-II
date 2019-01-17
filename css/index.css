@@ -180,6 +180,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: red;
   }
   header h1 {
     font-size: 3rem;
@@ -385,4 +386,88 @@ header nav a:hover {
   border-radius: 5px;
   font-size: 1.5rem;
   text-align: center;
+}
+.home .form {
+  background: #17A2B8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 0%;
+  margin-bottom: 5%;
+  heigt: 100%;
+}
+.home .form .form_name {
+  padding: 5% 0% 2% 0%;
+  width: 50%;
+}
+.home .form .form_name input {
+  width: 100%;
+  background: #17A2B8;
+  border: none;
+  border-bottom: white 1px solid;
+}
+.home .form .form_name input:::placeholder {
+  color: white;
+}
+.home .form .form_name input::placeholder {
+  color: #FFFFFF;
+}
+.home .form .form_email {
+  padding: 2% 0% 2% 0%;
+  width: 50%;
+}
+.home .form .form_email input {
+  width: 100%;
+  background: #17A2B8;
+  border: none;
+  border-bottom: white 1px solid;
+}
+.home .form .form_email input:::placeholder {
+  color: white;
+}
+.home .form .form_email input::placeholder {
+  color: #FFFFFF;
+}
+.home .form .form_phone {
+  padding: 2% 0% 2% 0%;
+  width: 50%;
+}
+.home .form .form_phone input {
+  width: 100%;
+  background: #17A2B8;
+  border: none;
+  border-bottom: white 1px solid;
+}
+.home .form .form_phone input:::placeholder {
+  color: white;
+}
+.home .form .form_phone input::placeholder {
+  color: #FFFFFF;
+}
+.home .form .form_instructions {
+  padding: 2% 0% 2% 0%;
+  width: 50%;
+}
+.home .form .form_instructions input {
+  width: 100%;
+  background: #17A2B8;
+  border: none;
+  border-bottom: white 1px solid;
+}
+.home .form .form_instructions input:::placeholder {
+  color: white;
+}
+.home .form .form_instructions input::placeholder {
+  color: #FFFFFF;
+}
+.home .form .form_submit {
+  width: 30%;
+  height: 100%;
+}
+.home .form .form_submit button {
+  width: 100%;
+  padding: 5%;
+  background: aqua;
+  border: none;
+  color: #FFFFFF;
 }
